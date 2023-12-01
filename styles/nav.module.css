@@ -1,0 +1,21 @@
+.list {
+    display:bflax;
+    gap: 2em;
+
+}
+
+@media (hover: hover) {
+.list a:hover {
+    color: var(--accent);
+    }
+}
+
+@media (hover: none) {
+    .list a {
+        -wibkit-tap-highlight-color: transparent;
+    }
+}
+
+.list a:active{
+    color: var(--accent);
+}
