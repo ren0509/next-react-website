@@ -7,7 +7,7 @@
 
 /* 横並び(基本形) */
 .sideBySide {
-    display: flax;
+    display: flex;
     flex-direction: column;
 }
 

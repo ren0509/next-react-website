@@ -9,7 +9,7 @@
   --accent: #0d87e0;
 
   /*　タイポグラフィ（フォントサイズ)　*/
---body: clamp(1rem,0.95rem + 0.2vw, 1.125rem); 
+--body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem); 
 --display: clamp(4.5rem, 1.38rem + 11.34vw, 10rem); 
 --heading1: clamp(2rem, 1.3rem + 3vw, 4rem);
 --heading2: calc(var(--body) * 1.5);
@@ -21,10 +21,11 @@
 --space-xs:clamp(1.25rem, 1rem + 0.98vw, 1.875rem);
 --space-sm: calc(var(--space-xs) * 1.5);
 --space-md: calc(var(--space-xs) * 2);
---space-lg: calc(var(--space-xs) : 3);
---space-xl: calc(var(--space-xs) : 4);
+--space-lg: calc(var(--space-xs) * 3);
+--space-xl: calc(var(--space-xs) * 4);
 --space-jump: clamp(1.25, 0.35rem + 3.8vw, 3.75rem);
 }
+
 
 /* 基本設定　*/
 body {

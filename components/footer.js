@@ -5,10 +5,11 @@ import styles from 'styles/footer.module.css'
 export default function Footer() {
     return (
         <footer className={styles.wrapper}>
-            <Container>
+            <Container large>
             <div className={styles.flexContainer}>
-                <Logo />
-                </div>
+                    <Logo />
+                    [social]
+            </div>
             </Container>    
         </footer>
     )
